@@ -4,5 +4,5 @@ import Home from './Home';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Podcasts />, div);
+  ReactDOM.render(<Liturgies />, div);
 });
