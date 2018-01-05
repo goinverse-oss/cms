@@ -1,3 +1,5 @@
+@import 'styles/shared.scss';
+
 .App {
   text-align: center;
 }
@@ -16,6 +18,7 @@
 
 .App-title {
   font-size: 1.5em;
+  color: white;
 }
 
 .App-intro {
@@ -26,3 +29,5 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+body {background: $primary;}
