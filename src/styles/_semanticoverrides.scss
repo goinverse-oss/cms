@@ -1,0 +1,55 @@
+// Global Semantic UI Overrides
+
+///////////
+// Button
+///////////
+.ui.button {
+  padding: 12px 60px;
+	border-radius: 4px;
+	background-color: $primary;
+  font-size: 15px;
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: #de2c29;
+    color: white;
+  }
+
+  &.active:active,
+  &:active {
+    background-color: #de2c29;
+    color: white;
+  }
+
+  &:focus {
+    background-color: $primary;
+    color: white;
+  }
+
+  &.hollow {
+    background-color: unset;
+    color: $primary;
+    border: 2px solid $primary;
+
+    &:hover {
+      background-color: $primary;
+      color: white;
+    }
+  }
+}
+
+
+///////////
+// Login Form
+///////////
+.login-form {
+  .ui.stacked.segment {
+    padding-bottom: 1em;
+  }
+
+  .ui.stacked.segment:after {
+    border-top: none;
+    background: none;
+  }
+}
