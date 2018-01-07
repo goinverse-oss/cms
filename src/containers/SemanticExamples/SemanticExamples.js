@@ -56,7 +56,7 @@ class SemanticExamples extends Component {
         <Header block>Buttons</Header>
         <Button>Get Happy</Button>
         <Button className="hollow">Get Sad</Button>
-        <Header block>Login Form</Header>
+        <Header block>Login Form (<a href="https://react.semantic-ui.com/layouts/login">copied &amp; tweaked from here</a>)</Header>
         {LoginForm}
       </Container>
     );
