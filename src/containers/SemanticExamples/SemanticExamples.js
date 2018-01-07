@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './SemanticExamples.css'
 import {
   Button,
   Container,

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Liturgies.css';
 
 class Liturgies extends Component {
   render() {
