@@ -9,7 +9,6 @@ import {
   Icon,
   Item,
   Form,
-  Label,
   Message,
   Segment
 } from 'semantic-ui-react';

@@ -17,45 +17,57 @@ export default class TopMenu extends Component {
           name='Home'
           active={activeItem === 'Home'}
           onClick={this.handleItemClick}
+
+          to='/home'
         >
-          <Link to="/">Home</Link>
+          Home
         </Menu.Item>
 
         <Menu.Item
           name='Podcasts'
           active={activeItem === 'Podcasts'}
           onClick={this.handleItemClick}
+          as={Link}
+          to='/podcasts'
         >
-          <Link to="/podcasts">Podcasts</Link>
+          Podcasts
         </Menu.Item>
 
         <Menu.Item
           name='Meditations'
           active={activeItem === 'Meditations'}
           onClick={this.handleItemClick}
+          as={Link}
+          to='/meditations'
         >
-          <Link to="/meditations">Meditations</Link>
+          Meditations
         </Menu.Item>
         <Menu.Item
           name='Liturgies'
           active={activeItem === 'Liturgies'}
           onClick={this.handleItemClick}
+          as={Link}
+          to='/liturgies'
         >
-          <Link to="/liturgies">Liturgies</Link>
+          Liturgies
         </Menu.Item>
         <Menu.Item
           name='Events'
           active={activeItem === 'Events'}
           onClick={this.handleItemClick}
+          as={Link}
+          to='/events'
         >
-          <Link to="/events">Events</Link>
+          Events
         </Menu.Item>
         <Menu.Item
           name='SemanticExamples'
           active={activeItem === 'SemanticExamples'}
           onClick={this.handleItemClick}
+          as={Link}
+          to='/semantic-examples'
         >
-          <Link to="/semantic-examples">Semantic UI Examples</Link>
+          Semantic UI Examples
         </Menu.Item>
       </Menu>
     )
