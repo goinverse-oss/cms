@@ -4,21 +4,21 @@
 // Button
 ///////////
 .ui.button {
-  padding: 12px 60px;
-	border-radius: 4px;
+  font-size: 1.1rem;
+  padding: 1em 4em;
+	border-radius: .3em;
 	background-color: $primary;
-  font-size: 15px;
   color: white;
   border: none;
 
   &:hover {
-    background-color: #de2c29;
+    background-color: $darkened-primary;
     color: white;
   }
 
   &.active:active,
   &:active {
-    background-color: #de2c29;
+    background-color: $darkened-primary;
     color: white;
   }
 
@@ -30,8 +30,8 @@
   &.hollow {
     background-color: unset;
     color: $primary;
-    border: 2px solid $primary;
-    padding: 10px 60px;
+    border: .14em solid $primary;
+    padding: .86em 3.86em;
 
     &:hover {
       background-color: $primary;
@@ -45,12 +45,12 @@
 ///////////
 .ui.items .item {
   position: relative;
-  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
-  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+  box-shadow: 0 .07rem .14rem 0 rgba(34,36,38,.15);
+  box-shadow: 0 .14rem .28rem 0 rgba(34,36,38,.12), 0 .14rem .7rem 0 rgba(34,36,38,.15);
   margin: 1rem 0;
   padding: 1em 1em;
-  border-radius: .28571429rem;
-  border: 1px solid rgba(34,36,38,.15);
+  border-radius: .28em;
+  border: .07em solid rgba(34,36,38,.15);
 
   .item-icons {
     float: right;
@@ -61,7 +61,7 @@
     }
 
     .chat {
-      margin-left: 10px;
+      margin-left: .7em;
     }
   }
 }
