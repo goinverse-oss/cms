@@ -1,5 +1,8 @@
+@import 'styles/shared.scss';
+
 .App {
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .App-logo {
@@ -16,6 +19,7 @@
 
 .App-title {
   font-size: 1.5em;
+  color: white;
 }
 
 .App-intro {
