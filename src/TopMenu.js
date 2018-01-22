@@ -17,8 +17,8 @@ export default class TopMenu extends Component {
           name='Home'
           active={activeItem === 'Home'}
           onClick={this.handleItemClick}
-
-          to='/home'
+          as={Link}
+          to='/'
         >
           Home
         </Menu.Item>
